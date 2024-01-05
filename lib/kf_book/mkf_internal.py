@@ -28,7 +28,7 @@ import filterpy.stats as stats
 from filterpy.stats import plot_covariance_ellipse
 
 try:
-    import kf_book.book_plots as bp
+    import lib.kf_book.book_plots as bp
 except ModuleNotFoundError:
     import book_plots as bp
 
